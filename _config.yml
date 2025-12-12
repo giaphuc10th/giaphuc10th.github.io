@@ -1,2 +1,15 @@
+# Cấu hình cơ bản cho Jekyll / GitHub Pages
+title: "Nguyen Hoang Gia Phuc"
+description: "Trang cá nhân của Nguyễn Hoàng Gia Phúc"
 url: "https://giaphuc10th.github.io"
+baseurl: ""
 theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: /:title/
+exclude: ["node_modules", "vendor"]
